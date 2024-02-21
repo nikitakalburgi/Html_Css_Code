@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+   width: 98%;
+   min-height: 120px;
+   margin: 15px;
+   background-color: rgb(68, 68, 68);
+}
+#head header{
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head nav{
+    background-color: black;
+    height: 37px;
+    margin-top: 35px;
+}
+#head nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    justify-content: center;
+    line-height:37px;
+}
+#head nav a:hover{
+    color: white;
+    background-color: gray;
+    padding: 4px 15px;
+}
+#main{
+    width: 50%;
+    height: 310px;
+    padding: 20px;
+    margin: 20px 35px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+}
+#main h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+#main p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 17px;
+}
+#main button{
+    height: 35px;
+    width: 150px;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#body .para1 h4{
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 35px;
+}
+#body .para1 p{
+    width: 37%;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 5px 35px;
+    text-align: justify;
+}
+#body .para2 h4{
+    margin-top: -267px;
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 585px;
+    float: left;
+}
+#body .para2 p1{
+    width: 33%;
+    margin: -213px 100px 0px 576px;
+    font-size: 17px;
+    padding: 5px 5px 0px 10px;
+    text-align: justify;
+    float: left;
+}
+#sidebar{
+    margin: -873px 300px 0px 1110px;
+    float: left;
+    width: 23%;
+    height: 870px;
+    /* border: 1px solid black; */
+}
+#sidebar p{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 60px;
+}
+#sidebar h2{
+    font-size: 30px;
+}
+#sidebar h5{
+    font-size: 17px;
+    margin-top: 12px;
+}
+#sidebar .box1{
+    width: 130px;
+    height: 130px;
+    background-color:rgb(226, 226, 226);
+    margin: 30px 0px;
+}
+#sidebar .box2{
+    width: 130px;
+    height: 130px;
+    background-color:rgb(226, 226, 226);
+    margin: -160px 151px;
+    float: left;
+}
+#sidebar .wid h2{
+   font-size: 27px;
+   margin-top: 70px;
+}
+#sidebar .wid ul{
+    padding: 20px;
+}
+#sidebar .wid ul li{
+    font-size: 20px;
+    padding: 5px;
+}
+footer{
+    height: 40px;
+    font-size: 20px;
+    margin: 20px 20px;
+    background-color: rgb(224, 222, 222);
+    padding: 10px 10px;
+}
