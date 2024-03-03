@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+section 
+{
+    width: 80%;
+    height: 100vh;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 100px; */
+    padding: 100px;
+    box-sizing: border-box;
+    position: relative;
+    /* background-image: linear-gradient(180deg,#bdc3c7,#2c3e50),url(./Image/boss-removebg-preview.png); */
+    background-image: linear-gradient(180deg,#355C7D,#6C5B7B,#C06C84), url(./Image/boss-removebg-preview.png);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    margin: auto;
+
+
+
+    
+}
+section .content 
+{
+    max-width: 700px;
+
+}
+section .content h2
+{
+    font-size: 3em;
+    color: black;
+    margin-left: 100px;
+}
+section .content p 
+{
+    font-size: 1.2em;
+    color: black;
+    margin-top: 10px;
+    margin-left: 150px;
+    /* padding: 10px; */
+    /* text-align: justify; */
+}
+section img 
+{
+    max-width: 350px;
+    position: relative;
+    z-index: 1000000;
+}
+.wave 
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.grass
+{
+    position: absolute;
+    top: 500px;
+    left: 850px;
+
+}
+.grass img 
+{
+    width: 350px;
+    height: 120px;
+}
+.custom-shape-divider-bottom-1709111764 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709111764 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1709111764 .shape-fill {
+    fill: #FFFFFF;
+}
